@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/studentattendancelistcardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="#FFFFF0">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/studentattendancelist_tv_rollno"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="rollno"
+            android:textColor="#095AE5"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/studentattendancelist_tv_date"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:text="date"
+            android:textColor="#095AE5"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/studentattendancelist_tv_rollno"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/studentattendancelist_tv_attendance"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:text="A/B"
+            android:textColor="#095AE5"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/studentattendancelist_tv_date"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/studentattendancelist_deltebtn"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/studentattendancelist_tv_attendance"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/delete" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.v7.widget.CardView>

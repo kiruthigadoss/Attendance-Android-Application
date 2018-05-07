@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875238128041",
+    "firebase_url": "https://attendance100-c25db.firebaseio.com",
+    "project_id": "attendance100-c25db",
+    "storage_bucket": "attendance100-c25db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875238128041:android:1410bb0bb731c9eb",
+        "android_client_info": {
+          "package_name": "com.example.richa.attendance100"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875238128041-qtmibvmdvomsfh5b4ahtel83vntcrfa1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.richa.attendance100",
+            "certificate_hash": "41999add4e6703ab21fb2b6f5540e989048fd152"
+          }
+        },
+        {
+          "client_id": "875238128041-q16fgk6k6fj56593kba4q7cc2k0po0du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBE3bXIWpevk3MnBaTexMFZSFni0BN8dE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875238128041-q16fgk6k6fj56593kba4q7cc2k0po0du.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

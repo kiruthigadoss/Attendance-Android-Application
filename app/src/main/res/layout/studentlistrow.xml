@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="#FFFFF0"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/studentlist_rollno_tv"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:gravity="left"
+            android:hint="Rollno"
+            android:textColor="#095AE5"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/studentlist_name_tv"
+            android:layout_width="220dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:hint="Name"
+            android:textColor="#095AE5"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/studentlist_rollno_tv" />
+
+        <TextView
+            android:id="@+id/studentlist_phoneno_tv"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="left"
+            android:hint="PhoneNo"
+            android:textColor="#095AE5"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/studentlist_name_tv" />
+
+
+        <ImageView
+            android:id="@+id/studentlist_deletebtn"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="160dp"
+            android:gravity="center"
+            android:src="@drawable/delete"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/studentlist_rollno_tv"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>
